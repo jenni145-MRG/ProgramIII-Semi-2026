@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Regístrate</title>
+</head>
+<body class="bg-light">
+
+    <!-- Contenedor centrado verticalmente en toda la pantalla -->
+    <div class="container min-vh-100 d-flex justify-content-center align-items-center py-5">
+        <div class="row w-100 justify-content-center">
+            
+            <!-- Columna del tamaño de la tarjeta -->
+            <div class="col-12 col-md-8 col-lg-5">
+                
+                <!-- Tarjeta con color crema y sombra intensa personalizada -->
+                <div class="card border-0" style="background-color: #FDFBF7; box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35); border-radius: 12px;">
+                    <div class="card-body p-4 p-md-5">
+                        
+                        <h2 class="card-title text-center mb-4 fw-bold">Regístrate</h2>
+
+                        <form>
+                            <!-- Nombre y Apellido -->
+                            <div class="mb-3">
+                                <label class="form-label text-secondary small fw-semibold">Nombre y apellido</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Nombre">
+                                    <input type="text" class="form-control" placeholder="Apellido">
+                                </div>
+                            </div>
+
+                            <!-- Correo -->
+                            <div class="mb-3">
+                                <label class="form-label text-secondary small fw-semibold">Correo electrónico</label>
+                                <input type="email" class="form-control">
+                            </div>
+
+                            <!-- Contraseña -->
+                            <div class="mb-3">
+                                <label class="form-label text-secondary small fw-semibold">Contraseña</label>
+                                <input type="password" class="form-control">
+                            </div>
+
+                            <!-- Confirmar Contraseña -->
+                            <div class="mb-4">
+                                <label class="form-label text-secondary small fw-semibold">Confirmar contraseña</label>
+                                <input type="password" class="form-control">
+                            </div>
+
+                            <!-- Términos -->
+                            <div class="form-check mb-4">
+                                <input class="form-check-input" type="checkbox" id="termsCheck">
+                                <label class="form-check-label text-secondary small" for="termsCheck">
+                                    Acepto los términos
+                                </label>
+                            </div>
+
+                            <!-- Botón -->
+                            <button type="submit" class="btn text-white w-100 py-2 fw-semibold" style="background-color: rgb(80, 20, 20); border-radius: 6px;">
+                                Registrarse
+                            </button>
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
